@@ -6,12 +6,12 @@
 remote_theme : Simpleyyt/jekyll-theme-next
 
 # Site
-title: STICKY-AI
-subtitle: 
-description:
+title: "STICKY-AI"
+subtitle: "Subtitle"
+description: "Description"
 author: "Jinhyeok Park"
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: "ko"
+language: "en"
 date_format: '%Y-%m-%d'
 
 # URL
