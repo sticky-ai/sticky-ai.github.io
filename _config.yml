@@ -365,8 +365,8 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
@@ -384,7 +384,7 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname:
+  shortname: stikcy-ai
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
