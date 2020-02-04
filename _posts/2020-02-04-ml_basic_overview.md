@@ -8,17 +8,6 @@ tags:
  - Supervised Learning
 ---
 
-## Keyword
-* 알고리즘 (Algorithm)
-* 머신러닝 (Machine Learning)
-* 지도학습 (Supervised Learning)
-* 훈련샘플 (Training Examples)
-* 가설집합 (Hypothesis Sets)
-* 검정세트 (Validation Set)
-* 테스트셋 (Test Set)
-* 비용함수 (Loss Function)
-* 최적화 알고리즘 (Optimization Algorithm)
-
 `알고리즘(Algorithm)`은 어떠한 문제를 해결하기 위한 일련의 명령을 의미합니다. 머신러닝 기술이 적용되기 이전에는 1) 문제에 대한 자세한 설명이 주어지고 2) 해당 문제를 해결하기 위한 알고리즘을 설계하는 방식으로 진행되었습니다.
 
 시대가 변화하면서 머신러닝 기술이 발달하게 되면서 문제의 해결 방식이 달라지게 되었습니다. `머신러닝(Machine Learning)`을 활용한 문제 해결 방법은 1) 대략적인 문제에 대한 설명이 주어지고 2) `훈련샘플(Training Examples)`이 제공되며 3) 문제 해결을 위한 **학습**을 진행합니다.
@@ -57,6 +46,9 @@ $$ \hat{M}_m = arg\min_{M \in H_m} \sum_{(x, y) \in D_{val}} L(M(x), y) $$
 3. Reporting : 테스트 세트를 사용하여 제일 좋은 모델의 성능을 측정합니다.
 $$ R(\hat{M}) \approx \frac{1}{|D_{test}|} \sum_{(x,y) \in D_{test}} L(\hat{M}(x), y)$$
 
+
+## Keyword
+`알고리즘 (Algorithm)``머신러닝 (Machine Learning)``지도학습 (Supervised Learning)``훈련샘플 (Training Examples)``가설집합 (Hypothesis Sets)``검정세트 (Validation Set)``테스트셋 (Test Set)``비용함수 (Loss Function)``최적화 알고리즘 (Optimization Algorithm)`
 
 ## References
 **ML-BASIC**의 모든 포스팅은 뉴욕대 조경현 교수님의 '딥러닝을 이용한 자연어 처리' MOOC 강의를 정리한 것입니다. (https://www.edwith.org/deepnlp/joinLectures/17363)
