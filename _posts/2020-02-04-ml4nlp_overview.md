@@ -1,11 +1,11 @@
 ---
-title: [ML4NLP] Overview
-date: 2020-02-04
+title: Next Theme Tutorial
+description: NexT is a high quality elegant Jekyll theme ported from Hexo Next. It is crafted from scratch, with love.
 categories:
-- machine learning
+ - Machine Learning
 tags:
-- machine learning
 ---
+
 
 **Machine Learning for NLP**의 모든 포스팅은 뉴욕대 조경현 교수님의 '딥러닝을 이용한 자연어 처리' MOOC 강의를 정리한 것입니다. (https://www.edwith.org/deepnlp/joinLectures/17363)
 
