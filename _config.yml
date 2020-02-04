@@ -124,8 +124,7 @@ menu:
   about: /about/
   archives: /archives/
   tags: /tags/
-  navigator: /navigator/
-  sitemap: /sitemap.xml
+  sitemap: /navigator/
   #commonweal: /404.html
 
 
