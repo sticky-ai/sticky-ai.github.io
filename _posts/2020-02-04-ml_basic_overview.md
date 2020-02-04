@@ -38,13 +38,16 @@ tags:
 모든 조건이 충족되면, 각 가설집합 $H_m$에 최적화 알고리즘을 적용하여 가장 성능이 좋은 모델을 찾습니다. 
 
 1. Model Training : 각 가설(알고리즘)마다, Training Set을 사용하여 성능이 가장 좋은 모델을 찾습니다.
-$$ \hat{M}_m = arg\min_{M \in H_m} \sum_{(x, y) \in D} L(M(x), y) $$
+   
+   $$ \hat{M}_m = arg\min_{M \in H_m} \sum_{(x, y) \in D} L(M(x), y) $$
 
 2. Model Selection : 검정 세트를 사용하여 훈련된 모델 중 가장 성능이 좋은 모델을 선택합니다.
-$$ \hat{M}_m = arg\min_{M \in H_m} \sum_{(x, y) \in D_{val}} L(M(x), y) $$
+   
+   $$ \hat{M}_m = arg\min_{M \in H_m} \sum_{(x, y) \in D_{val}} L(M(x), y) $$
 
 3. Reporting : 테스트 세트를 사용하여 제일 좋은 모델의 성능을 측정합니다.
-$$ R(\hat{M}) \approx \frac{1}{|D_{test}|} \sum_{(x,y) \in D_{test}} L(\hat{M}(x), y)$$
+   
+   $$ R(\hat{M}) \approx \frac{1}{|D_{test}|} \sum_{(x,y) \in D_{test}} L(\hat{M}(x), y)$$
 
 
 ## Keyword
