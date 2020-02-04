@@ -1,9 +1,11 @@
 ---
-title: \[ML-BASIC]\ #1. Overview
+title: ML-BASIC. Part 1. Overview
 description: 
 categories:
  - Machine Learning
 tags:
+ - Machine Learning
+ - Supervised Learning
 ---
 
 
@@ -32,26 +34,19 @@ tags:
 
 * **Provided**
   * Dataset : 주어진 데이터셋을 $D$라고 하면, $N$개의 Input과 Output으로 구성됩니다.
-
   * Loss Function : 머신러닝 모델을 함수 $M$이라고 하면, $M(x)$의 값과 실제 값인 $y$를 평가하기 위한 지표입니다. 
-
   * Validation Set($D_{val}$) & Test Set($D_{test}$) : 검정 세트와 테스트 세트를 활용하여 구축된 모델의 성능을 평가하며, 만들어진 모델이 기존에 보지 않았던 데이터 샘플을 올바르게 분류할 수 있는지 검정합니다.
 
 * **Decide** 
   * 가설집합(Hypothesis Sets) : 문제를 해결하기 위한 알고리즘을 결정해야 합니다.
-  
   * 최적화 알고리즘(Optimization Algorithm) : 모델의 Loss값을 낮출 수 있는 학습 방법을 결정해야 합니다.
   
 앞서 주어지고 결정했던 것들을 정리하여 수식으로 나타내면 다음과 같습니다.
 
 * 훈련 데이터셋 : $D_{train} = \{(x_1, y_1), \cdots, (x_N, y_N)\}$
-
 * 평가 및 테스트셋 : $D_{val}, D_{test}$
-
 * 손실 함수 : $ L(M(x), y) \ge 0 $
-
 * 가설 집합 : $H_1, \cdots, H_M$
-
 * 최적화 알고리즘
 
 모든 조건이 충족되면, 각 가설집합 $H_m$에 최적화 알고리즘을 적용하여 가장 성능이 좋은 모델을 찾습니다. 
