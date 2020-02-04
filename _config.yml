@@ -3,6 +3,8 @@
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
 
+remote_theme : Simpleyyt/jekyll-theme-next
+
 # Site
 title: STICKY-AI
 subtitle: Artificial Intelligence / Machine Learning / Deep Learning
@@ -14,7 +16,7 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: https://sticky-ai.github.io
+url: "https://sticky-ai.github.io"
 baseurl:
 permalink: pretty
 
