@@ -8,9 +8,6 @@ tags:
  - Supervised Learning
 ---
 
-
-**Machine Learning for NLP**의 모든 포스팅은 뉴욕대 조경현 교수님의 '딥러닝을 이용한 자연어 처리' MOOC 강의를 정리한 것입니다. (https://www.edwith.org/deepnlp/joinLectures/17363)
-
 ## Keyword
 * 알고리즘 (Algorithm)
 * 머신러닝 (Machine Learning)
@@ -59,3 +56,8 @@ $$ \hat{M}_m = arg\min_{M \in H_m} \sum_{(x, y) \in D_{val}} L(M(x), y) $$
 
 3. Reporting : 테스트 세트를 사용하여 제일 좋은 모델의 성능을 측정합니다.
 $$ R(\hat{M}) \approx \frac{1}{|D_{test}|} \sum_{(x,y) \in D_{test}} L(\hat{M}(x), y)$$
+
+
+## References
+**ML-BASIC**의 모든 포스팅은 뉴욕대 조경현 교수님의 '딥러닝을 이용한 자연어 처리' MOOC 강의를 정리한 것입니다. (https://www.edwith.org/deepnlp/joinLectures/17363)
+
