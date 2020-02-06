@@ -11,8 +11,8 @@ tags:
 ## 사건집합(Event Set)
 `사건집합(Event Set)`은 가능한 모든 사건$(e)$들의 집합을 의미하며, $\Omega$(오메가)로 표현합니다. 예를 들어, 동전 던지기 게임을 한다고 가정하면, 가능한 모든 사건은 앞면이 나오는 경우와 뒷면이 나오는 경우 2가지가 존재합니다. 이는 가능한 모든 사건의 개수가 유한하기 때문에 이산(Discrete) 이라고 하며, 사건의 개수가 무한할 때는 연속(Continuous)라고 합니다.
   * 사건집합 : $$\Omega = \{e_1, e_2, \cdots, e_D\}$$
-  * 이산 : $\left| \Omega $\right| < \infty$
-  * 연속 : $\left| \Omega $\right| = \infty$
+  * 이산 : $\left\vert \Omega $\right\vert < \infty$
+  * 연속 : $\left\vert \Omega $\right\vert = \infty$
 
 
 ## 확률변수(Random Variable)
