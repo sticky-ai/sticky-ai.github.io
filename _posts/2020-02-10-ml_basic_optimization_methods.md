@@ -25,7 +25,7 @@ tags:
 
 아래의 그래프는 $x$축이 Loss값이고, $y$값이 Random하게 선택된 파라미터입니다. 그래프를 살펴보면 최초 Random하게 선택된 Parameter에 의해 0번 지점이 선택되었습니다. 바로 다음 시도에서는 운이 좋게도 더 낮은 Loss값을 가지는 1번 지점이 선택된 것을 확인할 수 있습니다. Random한 노이즈를 기반으로 Loss를 측정하기 때문에 기존보다 더 낮은 Loss를 가지는 모델을 찾을 수도, 찾지 못할 수도 있습니다. 
 
-![IMAGE]({{ "assets/resources/2020-02-10-ml_basic_optimization_methods/8040AB2B258DF47C5294529BB9954198.jpg" | absolute_url }}){: width="70%" height="70%"}
+![IMAGE]({{ "assets/resources/2020-02-10-ml_basic_optimization_methods/8040AB2B258DF47C5294529BB9954198.png" | absolute_url }}){: width="70%" height="70%"}
 
 **Pros**
 * 어떠한 비용함수를 사용하더라도 무관하다는 장점이 있습니다.
@@ -41,7 +41,7 @@ $$ \theta = \theta_0 - \eta \nabla L(\theta_0) $$
 
 지금까지의 내용만 살펴보면 이상적인 최적화 방법이라고 할 수 있겠지만, 학습 과정의 Step 사이즈가 커지면 최저점을 지나칠 수 있다는 단점이 존재합니다. 아래의 그림은 순차적으로 기울기가 작아지는 방향으로 학습을 진행하고 있습니다. 0번째 Point에서 다음 포인트까지의 Learning Rate(Step Size)가 크다면, 5번째 Point를 지나쳐 다음 Convex로 넘어갈 수 있다는 위험 요소가 존재합니다. 
 
-![IMAGE]({{ "assets/resources/2020-02-10-ml_basic_optimization_methods/3EEEA56F5E84A253D98636B0F4796F22.jpg" | absolute_url }}){: width="70%" height="70%"}
+![IMAGE]({{ "assets/resources/2020-02-10-ml_basic_optimization_methods/3EEEA56F5E84A253D98636B0F4796F22.png" | absolute_url }}){: width="70%" height="70%"}
 
 **Pros**
 * Random Guided Search에 비해서 탐색영역은 작지만, 확실한 학습 방향을 결정할 수 있습니다.
