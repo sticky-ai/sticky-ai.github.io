@@ -6,8 +6,6 @@ categories:
 tags:
 - Machine Learning
 - Backpropagation
-- Automatic Differentiation
-- Jacobian Vector Product
 - Chain Rule
 ---
 
@@ -62,12 +60,6 @@ dfdy = 1.0 * dfdq # dq/dy = 1
 위의 그림에 대한 세부 프로세스는 다음과 같습니다. 덧셈 게이트는 [-2, 5]를 입력받아 3을 출력합니다. 이 게이트는 덧셈 연산을 진행하기 때문에 두 입력에 대한 지역적 Gradient는 1이 됩니다. 이후 3과 -4의 곱셈 연산을 통해 최종적으로 -12를 출력하게 됩니다. 연쇄 법칙을 통해 Backpropagation이 진행되는 동안, 덧셈 게이트는 출력 값에 대한 Gradient 값이 -4였음을 학습합니다. 만약 이 회로가 높은 값을 출력하기를 원한다면, 이 회로가 덧셈 게이트의 출력 값이 4의 힘만큼 낮아지길 원하는 것으로 볼 수 있습니다. 따라서, 반복을 지속하고 Gradient 값을 연결하기 위해 덧셈 게이트는 이 Gradient 값을 받아들이고 이를 모든 입력들에 대한 지역적 Gradient 값에 곱합니다. 만약 $x, y$가 감소한다면, 이 덧셈 게이트의 출력은 감소할 것이고 이는 다시 곱셈 게이트의 출력이 증가하도록 할 것입니다.
 
 $\therefore$ Backpropagation은 보다 큰 최종 출력 값을 얻도록 게이트들이 자신들의 출력을 얼만큼 변화하길 원하는지 서로 소통할 수 있도록 합니다.
-
-## Automatic Differentiation
-in progress..
-
-## Jacobian Vector Product
-in progress..
 
 ## References
 1. Backpropagation에 적용되는 Chain Rule과 Automatic Differentiation의 개념을 이해하기 위해 스탠포드 CS231n 강의 **CS231n : Convolutional Neural Networks for Visual Recognition** 의 강의노트를 정리한 포스트를 참고하였습니다. (http://aikorea.org/cs231n/optimization-2/)
