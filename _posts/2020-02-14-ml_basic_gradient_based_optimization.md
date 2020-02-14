@@ -43,9 +43,6 @@ $$ \theta \leftarrow \theta + \eta \nabla L(\theta;D') $$
 
 ![IMAGE]({{ "assets/resources/2020-02-14-ml_basic_gradient_based_optimization/early_stop.jpg" | absolute_url }}){: width="70%" height="70%"}
 
-
-![IMAGE](resources/33D1D9E7E753E99AA2F934AFAFF189E1.jpg =1291x496)
-
 ## Adaptive Optimization
 **Adaptive Optimization**은 기존의 Stochastic Gradient Descent가 고정적인 Learning Rate를 가지고 학습을 진행하는 것을 보완하기 위해 고안되었습니다. 학습 과정에서 Learning Rate는 아주 중요한 역할을 하는데, 왜 중요한지 아래의 그림을 통해 확인해보겠습니다.
 
