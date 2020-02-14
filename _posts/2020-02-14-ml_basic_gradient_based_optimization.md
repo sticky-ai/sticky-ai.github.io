@@ -26,15 +26,15 @@ $$ \nabla{L} \approx \frac{1}{N'} \sum_{n=1}^{N'}{\nabla{l}(M(x_{n'}), y_{n'})} 
 
 $$ D' = \{ (x_1, y_1), \dots , (x_{n'}, y_{n'}) \}$$
 
-1. Compute the minibatch gradient
+2. Compute the minibatch gradient
 
 $$ \nabla{L} \approx \frac{1}{N'} \sum_{n=1}^{N'}{\nabla{l}(M(x_{n'}), y_{n'})} $$
 
-1. Update the parameters
+3. Update the parameters
 
 $$ \theta \leftarrow \theta + \eta \nabla L(\theta;D') $$
 
-1. Repeat until the validation loss stops improving
+4. Repeat until the validation loss stops improving
 
 ## Early Stopping
 과적합이란, 모델이 학습 데이터를 과하게 학습하여 학습 데이터가 아닌 다른 데이터가 들어오면 제대로 분류하지 못하게 되는 상태를 의미합니다. 일반적으로 Training Set에 대한 Loss값은 감소하는 반면, Validation Set에 대한 Loss값이 상승할 때에 과적합이 일어나고 있다고 판단합니다.
@@ -55,17 +55,17 @@ $\\$*Saddle Point : Loss가 가장 낮은 포인트
 
 $$ D' = \{ (x_1, y_1), \dots , (x_{n'}, y_{n'}) \}$$
 
-1. Compute the minibatch gradient
+2. Compute the minibatch gradient
 
 $$ \nabla{L} \approx \frac{1}{N'} \sum_{n=1}^{N'}{\nabla{l}(M(x_{n'}), y_{n'})} $$
 
-1. Update the per-parameter learning rate $\eta_\theta$
+3. Update the per-parameter learning rate $\eta_\theta$
 
-1. Update the parameters
+4. Update the parameters
 
 $$ \theta \leftarrow \theta - \eta_\theta \frac{\partial{L'}}{\partial{\theta}}$$
 
-1. Repeat until the validation loss stops improving
+5. Repeat until the validation loss stops improving
 
 Adaptive Optimizer는 [Adam Optimizer(Kingma&Ba, 2015)][adam], [Adadelta(Zeiler, 2015)][adadelta] 등 여러 알고리즘들이 존재합니다.
 
