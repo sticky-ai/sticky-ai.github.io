@@ -1,9 +1,14 @@
+---
+comments: true
+---
+
 # ---------------------------------------------------------------
 # Jekyll & Global Configuration
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
 
 remote_theme : Simpleyyt/jekyll-theme-next
+
 
 # Site
 title: STICKY-AI
@@ -384,7 +389,7 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname: STICKY-AI
+  shortname: STICKYAI
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
