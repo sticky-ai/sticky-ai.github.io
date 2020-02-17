@@ -50,4 +50,4 @@ $$ \theta = \theta_0 - \eta \nabla L(\theta_0) $$
 * 학습률(Learning Rate)가 너무 크거나 작으면 최적의 값을 지나칠 수 있습니다.
 
 ## References
-**Machine Learning for NLP**의 모든 포스팅은 뉴욕대 조경현 교수님의 '딥러닝을 이용한 자연어 처리' MOOC 강의를 정리한 것입니다. (https://www.edwith.org/deepnlp/joinLectures/17363)
+**Machine Learning Basic**의 모든 포스팅은 뉴욕대 조경현 교수님의 '딥러닝을 이용한 자연어 처리' MOOC 강의를 정리한 것입니다. (https://www.edwith.org/deepnlp/joinLectures/17363)

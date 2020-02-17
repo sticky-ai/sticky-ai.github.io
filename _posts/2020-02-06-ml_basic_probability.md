@@ -43,4 +43,4 @@ $$ p(X|Y) = \frac{P(X, Y)}{p(Y)}$$
 `확률(Probability)` `사건집합(Event Set)` `확률변수(Random Variable)` `다중확률변수(Multiple Random Variable)` `결합확률(Joint Probability)` `주변확률(Marginal Probability)` `조건부확률(Conditional Probability)`
 
 ## References
-**Machine Learning for NLP**의 모든 포스팅은 뉴욕대 조경현 교수님의 '딥러닝을 이용한 자연어 처리' MOOC 강의를 정리한 것입니다. (https://www.edwith.org/deepnlp/joinLectures/17363)
+**Machine Learning Basic**의 모든 포스팅은 뉴욕대 조경현 교수님의 '딥러닝을 이용한 자연어 처리' MOOC 강의를 정리한 것입니다. (https://www.edwith.org/deepnlp/joinLectures/17363)

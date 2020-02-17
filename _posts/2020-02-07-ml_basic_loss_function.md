@@ -81,4 +81,4 @@ $$ L(\theta) = \sum_{n=1}^{N}l(M_\theta(x_n), y_n) = -\sum_{n=1}^{N} \log{p_\the
 ![IMAGE]({{ "assets/resources/2020-02-07-ml_basic_loss_function/9F80BC3028731D44A2F0D9001585EC30.jpg" | absolute_url }}){: width="70%" height="70%"}
 
 ## References
-**Machine Learning for NLP**의 모든 포스팅은 뉴욕대 조경현 교수님의 '딥러닝을 이용한 자연어 처리' MOOC 강의를 정리한 것입니다. (https://www.edwith.org/deepnlp/joinLectures/17363)
+**Machine Learning Basic**의 모든 포스팅은 뉴욕대 조경현 교수님의 '딥러닝을 이용한 자연어 처리' MOOC 강의를 정리한 것입니다. (https://www.edwith.org/deepnlp/joinLectures/17363)

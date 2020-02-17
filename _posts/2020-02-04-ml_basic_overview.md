@@ -54,5 +54,5 @@ tags:
 `알고리즘 (Algorithm)` `머신러닝 (Machine Learning)` `지도학습 (Supervised Learning)` `훈련샘플 (Training Examples)` `가설집합 (Hypothesis Sets)` `검정세트 (Validation Set)` `테스트셋 (Test Set)` `비용함수 (Loss Function)` `최적화 알고리즘 (Optimization Algorithm)`
 
 ## References
-**ML-BASIC**의 모든 포스팅은 뉴욕대 조경현 교수님의 '딥러닝을 이용한 자연어 처리' MOOC 강의를 정리한 것입니다. (https://www.edwith.org/deepnlp/joinLectures/17363)
+**Machine Learning Basic**의 모든 포스팅은 뉴욕대 조경현 교수님의 '딥러닝을 이용한 자연어 처리' MOOC 강의를 정리한 것입니다. (https://www.edwith.org/deepnlp/joinLectures/17363)
 
