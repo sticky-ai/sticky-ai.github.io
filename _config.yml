@@ -3,6 +3,7 @@
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
 ---
+layout: default
 comments: true
 ---
 remote_theme : Simpleyyt/jekyll-theme-next
