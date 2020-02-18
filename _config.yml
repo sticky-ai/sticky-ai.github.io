@@ -5,11 +5,12 @@
 
 remote_theme : Simpleyyt/jekyll-theme-next
 
+
 # Site
 title: STICKY-AI
 subtitle: Artificial Intelligence / Machine Learning / Deep Learning
 description:
-author: Jinhyeok Park (STIKCY-AI)
+author: Jinhyeok Park (STICKY-AI)
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
@@ -384,7 +385,7 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname: stikcy-ai
+  shortname: STICKYAI
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
