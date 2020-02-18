@@ -42,8 +42,6 @@ $$ X = \{x_1, x_2, \dots, x_T\}, \quad x_t \in V $$
 
 토큰을 나누고, 각 토큰을 컴퓨터가 이해할 수 있도록 중복되지 않는 인덱스로 바꾸어줍니다. 이는 모든 토큰을 숫자화 하는 것으로, 궁극적으로 모든 문장을 Random한 일련의 정수들의 집합으로 변환합니다. 이를 **인코딩(Encoding)**이라고 합니다. 인코딩은 아래의 표와 같이 표현할 수 있습니다.
 
-<center> 
-
 |Index|Token|
 |------|---|
 |...|...|
@@ -54,8 +52,6 @@ $$ X = \{x_1, x_2, \dots, x_T\}, \quad x_t \in V $$
 |25|문장|
 |...|...|
 |38|입니다|
-
-</center>
 
 ## One-hot Encoding
 하지만, 이렇게 Random Index로 인코딩 하는 방식은 관계없는 숫자들을 나열하는 것으로, 단어 사이의 의미를 표현할 수 없다는 한계점이 존재합니다. 따라서, 이러한 관계성(Relationship)을 나타내기 위한 여러가지 방법들이 존재합니다. 대표적으로 **원-핫 인코딩(One-hot Encoding)** 을 사용한 방법이 있습니다. 원-핫 인코딩은 단어장의 총 길이($|V|$)인 벡터에서, 단어의 Index 위치에 있는 값은 1, 나머지는 0으로 구성합니다. 이는 아래의 그림을 통해 쉽게 이해할 수 있습니다. 
@@ -77,7 +73,7 @@ $$ X = \{e_1, e_2, \dots, e_T\}, \quad where\ e_t \in \mathbb{R}^d$$
 
 결과적으로, 신경망 연산을 통해 산출된 벡터의 사이즈는 카테고리의 사이즈와 동일하며, Softmax Function을 통해 해당 토큰이 어떠한 카테고리에 속할지에 대한 확률(Probability)을 반환하게 됩니다.
 
-![IMAGE]({{ "assets/resources/2020-02-18-NLP_basic_how_to_represent_sentence_and_token/word_embedding_grpah.jpg" | absolute_url }}){: width="70%" height="70%"}
+![IMAGE]({{ "assets/resources/2020-02-18-NLP_basic_how_to_represent_sentence_and_token/word_embedding_graph.jpg" | absolute_url }}){: width="70%" height="70%"}
 
 ## References
 **Natural Language Proceesing Basic**의 모든 포스팅은 뉴욕대 조경현 교수님의 '딥러닝을 이용한 자연어 처리' MOOC 강의를 정리한 것입니다. (https://www.edwith.org/deepnlp/joinLectures/17363)
