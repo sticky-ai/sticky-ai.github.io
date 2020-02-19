@@ -18,8 +18,8 @@ layout: page
 
 <font color="#2851a4"><h2>Natural Language Processing</h2></font>
 
-### Natural Language Processing Basic
-- [NLP-Basic. Part 1. How to represent a sentence & token?][nlpbasic_part1]
+### Natural Language Processing
+- [ML4NLP. Part 1. How to represent a sentence & token?][nlpbasic_part1]
 
 [mlbasic_part1]: {{ site.baseurl }}{% link _posts/2020-02-04-ml_basic_overview.md %}
 [mlbasic_part2]: {{ site.baseurl }}{% link _posts/2020-02-05-ml_basic_hypothesis_set.md %}
@@ -29,4 +29,4 @@ layout: page
 [mlbasic_part5_1]: {{ site.baseurl }}{% link _posts/2020-02-14-ml_basic_gradient_based_optimization.md %}
 [mlbasic_part6]: {{ site.baseurl }}{% link _posts/2020-02-11-ml_basic_backpropagation.md %}
 
-[nlpbasic_part1]: {{ site.baseurl }}{% link _posts/2020-02-18-NLP_basic_how_to_represent_sentence_and_token.md %}
+[ml4nlp_part1]: {{ site.baseurl }}{% link _posts/2020-02-18-ml4nlp_text_classification_sentence_representation.md %}
