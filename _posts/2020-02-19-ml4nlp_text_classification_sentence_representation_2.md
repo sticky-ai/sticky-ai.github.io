@@ -14,7 +14,7 @@ tags:
 - Convolutional Neural Network
 ---
 
-앞선 포스팅 [ML4NLP. Part 1. Text Classification & Sentence Representation][ml4nlp_part1_1]에서 Text Classification을 진행하기 위한 사전 작업에 대해 살펴보았습니다. 원-핫 인코딩 방식이 단어간의 의미를 전혀 표현할 수 없다는 한계점을 해결하기 위해 Word Embedding 방법을 사용했었습니다. Word Embedding 방법은 문장을 수치화 하는 데 성공했지만, 단어간 유사도를 나타내기에는 적절하지 않다는 한계점이 드러났습니다. 따라서, 이번 포스팅에서는 문장의 의미를 파악하기 위한 여러가지 방법 중 Word2Vec 모델과 CNN 모델을 살펴보겠습니다.
+앞선 포스팅 [ML4NLP. Part 1. Text Classification & Sentence Representation][ml4nlp_part1_1]에서 Text Classification을 진행하기 위한 사전 작업에 대해 살펴보았습니다. 원-핫 인코딩 방식이 단어간의 의미를 전혀 표현할 수 없다는 한계점을 해결하기 위해 Word Embedding 방법을 사용했었습니다. Word Embedding 방법은 문장을 수치화 하는 데 성공했지만, 단어간 유사도를 나타내기에는 적절하지 않다는 한계점이 드러났습니다. 따라서, 이번 포스팅에서는 문장의 의미를 파악하기 위한 여러가지 방법 중 Word2Vec 모델 중 CBoW 방법과 Relation Network(Skip-Gram) 모델을 살펴보겠습니다.
 
 ## Word2Vec - CBoW(Continuous Bag-of-Words)
 **CBoW**의 기본 아이디어는 여러 개의 단어로부터 이와 관련된 단어를 추정하는 것입니다. 예를 들어, 'The fat cat sat on the mat' 라는 문장이 있을 때, 이 문장은 {'The', 'cat', 'sat', 'on', 'the', 'mat'}와 같이 토큰화 할 수 있습니다. 만약, 'sat'이 예측해야 하는 단어라면 'football'을 **중심 단어(Center Word)** 라 하며, 예측에 사용되는 주변 단어들을 **주변 단어(Context Word)** 라 합니다.
