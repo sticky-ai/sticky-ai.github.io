@@ -19,7 +19,7 @@ layout: page
 <font color="#2851a4"><h2>Natural Language Processing</h2></font>
 
 ### Natural Language Processing
-- [ML4NLP. Part 1. How to represent a sentence & token?][nlpbasic_part1]
+- [ML4NLP. Part 1. Text Classification & Sentence Representation][ml4nlp_part1]
 
 [mlbasic_part1]: {{ site.baseurl }}{% link _posts/2020-02-04-ml_basic_overview.md %}
 [mlbasic_part2]: {{ site.baseurl }}{% link _posts/2020-02-05-ml_basic_hypothesis_set.md %}

@@ -1,10 +1,9 @@
 ---
-title: NLP-BASIC. PART 1. How to represent a sentence & token?
+title: ML4NLP. PART 1. How to represent a sentence & token?
 date: 2020-02-18
 categories:
 - Natural Language Processing
 tags:
-- NLP Basic
 - Natural Language Processing
 - Tokens
 - Vocabulary
