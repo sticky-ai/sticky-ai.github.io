@@ -18,7 +18,7 @@ layout: page
 
 <font color="#2851a4"><h2>Natural Language Processing</h2></font>
 
-### Natural Language Processing
+### Machine Learning for Natural Language Processing
 - [ML4NLP. Part 1. Text Classification & Sentence Representation 1][ml4nlp_part1_1]
 
 [mlbasic_part1]: {{ site.baseurl }}{% link _posts/2020-02-04-ml_basic_overview.md %}
