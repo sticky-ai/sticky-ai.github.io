@@ -1,9 +1,10 @@
 ---
-title: ML4NLP. PART 1. How to represent a sentence & token?
+title: ML4NLP. PART 1. Text Classification & Sentence Representation 1
 date: 2020-02-18
 categories:
 - Natural Language Processing
 tags:
+- ML4NLP
 - Natural Language Processing
 - Tokens
 - Vocabulary
