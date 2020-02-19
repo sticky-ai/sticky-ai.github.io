@@ -20,6 +20,7 @@ layout: page
 
 ### Machine Learning for Natural Language Processing
 - [ML4NLP. Part 1. Text Classification & Sentence Representation 1][ml4nlp_part1_1]
+- [ML4NLP. Part 1. Text Classification & Sentence Representation 2][ml4nlp_part1_2]
 
 [mlbasic_part1]: {{ site.baseurl }}{% link _posts/2020-02-04-ml_basic_overview.md %}
 [mlbasic_part2]: {{ site.baseurl }}{% link _posts/2020-02-05-ml_basic_hypothesis_set.md %}
@@ -30,3 +31,11 @@ layout: page
 [mlbasic_part6]: {{ site.baseurl }}{% link _posts/2020-02-11-ml_basic_backpropagation.md %}
 
 [ml4nlp_part1_1]: {{ site.baseurl }}{% link _posts/2020-02-18-ml4nlp_text_classification_sentence_representation_1.md %}
+[ml4nlp_part1_2]: {{ site.baseurl }}{% link _posts/2020-02-19-ml4nlp_text_classification_sentence_representation_2.md %}
+
+
+
+
+
+
+
