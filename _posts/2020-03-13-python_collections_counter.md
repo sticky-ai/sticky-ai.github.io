@@ -10,6 +10,7 @@ tags:
 ---
 
 ## collections.Counter([Iterable-or-mapping])
+---
 `collection` 모듈에 속해있는 `Counter` 클래스는 주어진 컨테이너에 동일한 값이 몇 개씩 있는지 손쉽게 파악할 수 있도록 도와줍니다. Input으로 데이터를 입력받아 Dictionary 형태로 반환합니다. **Elements**가 Key로 저장되고 **Counts**가 Value로 저장됩니다. 아래의 코드를 통해 불러 올 수 있습니다.
 {% highlight python %}
 from collections import Counter
@@ -18,7 +19,7 @@ from collections import Counter
 
 
 ## Examples
-
+---
 ### Input :: None
 {% highlight python %}
 print(Counter())
@@ -56,7 +57,7 @@ print(list(mapped.elements()))
 {% endhighlight %}
 
 ## Methods
-
+---
 ### elements()
 Counter를 구성하고 있는 Element들을 출력합니다.
 {% highlight python %}
