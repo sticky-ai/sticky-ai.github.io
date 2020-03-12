@@ -5,7 +5,6 @@ layout: page
 주제별로 모은 포스트들입니다. 한 포스트가 여러 주제에 속하기도 합니다.
 
 <font color="#2851a4"><h2>Machine Learning</h2></font>
-
 ### Machine Learning Basic
 - [ML-Basic. Part 1. Overview][mlbasic_part1]
 - [ML-Basic. Part 2. Hypothesis Set][mlbasic_part2]
@@ -17,16 +16,16 @@ layout: page
 
 
 <font color="#2851a4"><h2>Natural Language Processing</h2></font>
-
 ### Machine Learning for Natural Language Processing
 - [ML4NLP. Part 1. Text Classification & Sentence Representation 1][ml4nlp_part1_1]
 - [ML4NLP. Part 1. Text Classification & Sentence Representation 2][ml4nlp_part1_2]
 
 
 <font color="#2851a4"><h2>Python</h2></font>
+### Python Programming
 
-### Python
-- [Python. collections.Counter()][python_collections_counter]
+### Python Libraries
+- [collections.Counter()][python_collections_counter]
 
 
 [mlbasic_part1]: {{ site.baseurl }}{% link _posts/2020-02-04-ml_basic_overview.md %}
