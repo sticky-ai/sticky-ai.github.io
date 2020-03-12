@@ -22,6 +22,13 @@ layout: page
 - [ML4NLP. Part 1. Text Classification & Sentence Representation 1][ml4nlp_part1_1]
 - [ML4NLP. Part 1. Text Classification & Sentence Representation 2][ml4nlp_part1_2]
 
+
+<font color="#2851a4"><h2>Python</h2></font>
+
+### Python
+- [Python. collections.Counter()][python_collections_counter]
+
+
 [mlbasic_part1]: {{ site.baseurl }}{% link _posts/2020-02-04-ml_basic_overview.md %}
 [mlbasic_part2]: {{ site.baseurl }}{% link _posts/2020-02-05-ml_basic_hypothesis_set.md %}
 [mlbasic_part3]: {{ site.baseurl }}{% link _posts/2020-02-06-ml_basic_probability.md %}
@@ -33,9 +40,4 @@ layout: page
 [ml4nlp_part1_1]: {{ site.baseurl }}{% link _posts/2020-02-18-ml4nlp_text_classification_sentence_representation_1.md %}
 [ml4nlp_part1_2]: {{ site.baseurl }}{% link _posts/2020-02-19-ml4nlp_text_classification_sentence_representation_2.md %}
 
-
-
-
-
-
-
+[python_collections_counter]: {{ site.baseurl }}{% link _posts/2020-03-13-python_collections_counter.md %}
