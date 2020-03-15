@@ -32,6 +32,7 @@ print(list(takewhile(is_even, [1, 10, 100, 1000, 10000])))
 
 print(list(takewhile(lambda x: x < 100, [1, 10, 100, 1000, 10000])))
 # [1, 10]
+{% endhighlight %}
 
 `takewhile` 클래스와  `itertools` 모듈에 속해 있는 `count` 클래스를 동시에 사용하여 아래와 같이 응용할 수 있습니다. 
 
