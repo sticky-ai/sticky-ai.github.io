@@ -27,8 +27,8 @@ layout: page
 ### Python Libraries
 - [collections.Counter()][python_collections_counter]
 - [itertools.cycle()][python_itertools_cycle]
-- [itertools.dropwhile()]python_itertools_dropwhile]
-
+- [itertools.dropwhile()][python_itertools_dropwhile]
+- [itertools.takewhile()][python_itertools_takewhile]
 
 [mlbasic_part1]: {{ site.baseurl }}{% link _posts/2020-02-04-ml_basic_overview.md %}
 [mlbasic_part2]: {{ site.baseurl }}{% link _posts/2020-02-05-ml_basic_hypothesis_set.md %}
@@ -44,7 +44,7 @@ layout: page
 [python_collections_counter]: {{ site.baseurl }}{% link _posts/2020-03-13-python_collections_counter.md %}
 [python_itertools_cycle]: {{ site.baseurl }}{% link _posts/2020-03-13-python_itertools_cycle.md %}
 [python_itertools_dropwhile] {{ site.baseurl }}[% link _posts/2020-03-14-python_itertools_dropwhile.md %}
-
+[python_itertools_takewhile] {{ site.baseurl }}[% link _posts/2020-03-14-python_itertools_takewhile.md %}
 
 
 
