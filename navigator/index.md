@@ -45,9 +45,9 @@ layout: page
 
 [python_collections_counter]: {{ site.baseurl }}{% link _posts/2020-03-13-python_collections_counter.md %}
 [python_itertools_cycle]: {{ site.baseurl }}{% link _posts/2020-03-13-python_itertools_cycle.md %}
-[python_itertools_dropwhile] {{ site.baseurl }}[% link _posts/2020-03-14-python_itertools_dropwhile.md %}
-[python_itertools_takewhile] {{ site.baseurl }}[% link _posts/2020-03-14-python_itertools_takewhile.md %}
-[python_itertools_permutations] {{ site.baseurl }}[% link _posts/2020-03-19-python_itertools_permutations.md %}
+[python_itertools_dropwhile]: {{ site.baseurl }}[% link _posts/2020-03-14-python_itertools_dropwhile.md %}
+[python_itertools_takewhile]: {{ site.baseurl }}[% link _posts/2020-03-14-python_itertools_takewhile.md %}
+[python_itertools_permutations]: {{ site.baseurl }}[% link _posts/2020-03-19-python_itertools_permutations.md %}
 
 
 
