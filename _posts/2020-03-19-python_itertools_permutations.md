@@ -19,7 +19,7 @@ from itertools import permutations
 
 ## Examples
 
-### Input :: Iterator(List), r = None)
+### Input :: Iterator(List), r = None
 `List` 형태의 반복자만 Parameter로 지정하여 출력한 결과입니다.
 {% highlight python %}
 print(permutations(['1','2','3']))
@@ -34,7 +34,7 @@ print(list(permutations(['1','2','3'])))
 {% endhighlight %}
 
 
-### Input :: Iterator, r = Integer)
+### Input :: Iterator, r = Integer
 `List` 형태의 반복자와 순열의 길이 `r`을 지정하여 출력한 결과입니다.
 {% highlight python %}
 print(list(permutations(['1','2','3'], 2)))
@@ -42,7 +42,7 @@ print(list(permutations(['1','2','3'], 2)))
 {% endhighlight %}
 
 
-### Input :: Iterator(String), r = Integer)
+### Input :: Iterator(String), r = Integer
 {% highlight python %}
 `String` 형태의 반복자와 순열의 길이 `r`을 지정하여 출력한 결과입니다.
 print(list(permutations('abc', 3)))
