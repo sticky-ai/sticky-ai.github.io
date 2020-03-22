@@ -19,7 +19,7 @@ from itertools import combinations
 
 ## Examples
 
-### Input :: Iterator(List), r = Integer)
+### Input :: Iterator(List), r = Integer
 `List` 형태의 반복자만 Parameter로 지정하여 출력한 결과입니다.
 {% highlight python %}
 print(combinations(['1','2','3'], 2))
@@ -33,7 +33,7 @@ print(list(combinations(['1','2','3'], 2)))
 # [('1', '2'), ('1', '3'), ('2', '3')]
 {% endhighlight %}
 
-### Input :: Iterator(String), r = Integer)
+### Input :: Iterator(String), r = Integer
 `String` 형태의 반복자와 순열의 길이 `r`을 지정하여 출력한 결과입니다.
 {% highlight python %}
 print(list(combinations('abcd', 2)))
