@@ -41,8 +41,11 @@ print(list(combinations('abcd', 2)))
 {% endhighlight %}
 
 `sorted` 함수를 사용하여 출력 결과를 정렬할 수 있습니다.
+{% highlight python %}
 print(list(combinations(sorted('dcab'), 2)))
 # [('a', 'b'), ('a', 'c'), ('a', 'd'), ('b', 'c'), ('b', 'd'), ('c', 'd')]
+{% endhighlight %}
+
 
 ## References
 1. https://www.hackerrank.com/challenges/itertools-combinations/problem
