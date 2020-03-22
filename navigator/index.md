@@ -30,6 +30,7 @@ layout: page
 - [itertools.dropwhile()][python_itertools_dropwhile]
 - [itertools.takewhile()][python_itertools_takewhile]
 - [itertools.permutations()][python_itertools_permutations]
+- [itertools.combinations()][python_itertools_combinations]
 
 
 [mlbasic_part1]: {{ site.baseurl }}{% link _posts/2020-02-04-ml_basic_overview.md %}
@@ -48,7 +49,7 @@ layout: page
 [python_itertools_dropwhile]: {{ site.baseurl }}[% link _posts/2020-03-14-python_itertools_dropwhile.md %}
 [python_itertools_takewhile]: {{ site.baseurl }}[% link _posts/2020-03-14-python_itertools_takewhile.md %}
 [python_itertools_permutations]: {{ site.baseurl }}[% link _posts/2020-03-19-python_itertools_permutations.md %}
-
+[python_itertools_combinations]: {{ stie.baseurl }}[% link _posts/2020-03-23-python_itertools_combinations.md %}
 
 
 
