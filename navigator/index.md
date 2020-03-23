@@ -31,7 +31,7 @@ layout: page
 - [itertools.takewhile()][python_itertools_takewhile]
 - [itertools.permutations()][python_itertools_permutations]
 - [itertools.combinations()][python_itertools_combinations]
-
+- [itertools.product()][python_itertools_product]
 
 [mlbasic_part1]: {{ site.baseurl }}{% link _posts/2020-02-04-ml_basic_overview.md %}
 [mlbasic_part2]: {{ site.baseurl }}{% link _posts/2020-02-05-ml_basic_hypothesis_set.md %}
@@ -50,6 +50,6 @@ layout: page
 [python_itertools_takewhile]: {{ site.baseurl }}[% link _posts/2020-03-14-python_itertools_takewhile.md %}
 [python_itertools_permutations]: {{ site.baseurl }}[% link _posts/2020-03-19-python_itertools_permutations.md %}
 [python_itertools_combinations]: {{ stie.baseurl }}[% link _posts/2020-03-23-python_itertools_combinations.md %}
-
+[python_itertools_product]: {{ site.baseurl }}[% link _posts/2020-03-24-python_itertools_product.md %}
 
 
