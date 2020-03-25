@@ -9,7 +9,7 @@ tags:
 - combinations
 ---
 
-> itertools.permutations(iterators, r)
+> itertools.combinations(iterators, r)
 
 {% highlight python %}
 from itertools import combinations

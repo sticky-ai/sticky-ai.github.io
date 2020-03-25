@@ -9,7 +9,7 @@ tags:
 - accumulate
 ---
 
-> itertools.permutations(iterable: Iterable[, func)
+> itertools.accumulate(iterable: Iterable[, func)
 
 {% highlight python %}
 from itertools import accumulate()

@@ -9,7 +9,7 @@ tags:
 - product
 ---
 
-> itertools.permutations(*args(iterator), repeat)
+> itertools.product(*args(iterator), repeat)
 
 {% highlight python %}
 from itertools import product
