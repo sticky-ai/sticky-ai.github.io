@@ -9,10 +9,10 @@ tags:
 - accumulate
 ---
 
-> itertools.accumulate(iterable: Iterable[, func)
+> itertools.accumulate(iterable: Iterable[, func])
 
 {% highlight python %}
-from itertools import accumulate()
+from itertools import accumulate
 {% endhighlight %}
 
 `itertools` 모듈에 속해있는 `accumulate` 클래스는 주어진 반복자에 대한 **축적 합**을 반환합니다. **축적 합**이란, 주어진 오브젝트에 대해 각 인덱스 이전의 값들을 모두 더한 값을 의미합니다. 만약 `[1, 2, 3]`의 리스트가 입력되었다면, 이를 accumulate한 결과값은 `[1, 3, 6]`입니다. 이를 풀어서 표현하면 `[1, 1 + 2, 1 + 2 + 3]`과 같습니다.
