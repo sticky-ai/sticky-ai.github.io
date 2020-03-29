@@ -48,7 +48,7 @@ layout: page
 [ml4nlp_part1_1]: {{ site.baseurl }}{% link _posts/2020-02-18-ml4nlp_text_classification_sentence_representation_1.md %}
 [ml4nlp_part1_2]: {{ site.baseurl }}{% link _posts/2020-02-19-ml4nlp_text_classification_sentence_representation_2.md %}
 
-[python_iterator]: {{ site.baseurl }}{% link _posts/2020-03-13-python_iterator.md %}
+[python_iterator]: {{ site.baseurl }}{% link _posts/2020-03-29-python_iterator.md %}
 
 [python_collections_counter]: {{ site.baseurl }}{% link _posts/2020-03-13-python_collections_counter.md %}
 [python_itertools_cycle]: {{ site.baseurl }}{% link _posts/2020-03-13-python_itertools_cycle.md %}
