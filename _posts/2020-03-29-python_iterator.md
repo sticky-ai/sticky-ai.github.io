@@ -1,5 +1,5 @@
 ---
-title: Python. iter() & next()
+title: Python. Iterator
 date: 2020-03-29
 categories:
 - Python
