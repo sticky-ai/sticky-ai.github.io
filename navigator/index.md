@@ -23,7 +23,8 @@ layout: page
 
 <font color="#2851a4"><h2>Python</h2></font>
 ### Python Programming
-- [python.iterator()][python_iterator]
+- [python.iterator][python_iterator]
+- [python.generator][python_generator]
 
 
 ### Python Libraries
@@ -49,6 +50,8 @@ layout: page
 [ml4nlp_part1_2]: {{ site.baseurl }}{% link _posts/2020-02-19-ml4nlp_text_classification_sentence_representation_2.md %}
 
 [python_iterator]: {{ site.baseurl }}{% link _posts/2020-03-29-python_iterator.md %}
+[python_generator]: {{ site.baseurl }}{% link _posts/2020-04-02-python_generator.md %}
+
 
 [python_collections_counter]: {{ site.baseurl }}{% link _posts/2020-03-13-python_collections_counter.md %}
 [python_itertools_cycle]: {{ site.baseurl }}{% link _posts/2020-03-13-python_itertools_cycle.md %}
