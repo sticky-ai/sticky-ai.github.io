@@ -8,7 +8,7 @@ tags:
 - Generator
 ---
 
-**Generator**는 Iterator를 반환하는 함수이며, `yield` 키워드를 사용하여 생성할 수 있습니다. 함수 내에서 `yield`를 사용하면 함수는 제너레이터를 반환합니다. 
+**Generator(제너레이터)**는 Iterator를 반환하는 함수이며, `yield` 키워드를 사용하여 생성할 수 있습니다. 함수 내에서 `yield`를 사용하면 함수는 제너레이터를 반환합니다. 제너레이터는 모든 결과값을 메모리에 저장하지 않기 때문에 좋은 성능을 낼 수 있습니다.
 
 {% highlight python %}
 def generator(): # 제너레이터 생성
