@@ -31,6 +31,9 @@ layout: page
 
 ### Python Libraries
 - [collections.Counter()][python_collections_counter]
+
+- [functools.reduce()][python_functools_reduce]
+
 - [itertools.cycle()][python_itertools_cycle]
 - [itertools.dropwhile()][python_itertools_dropwhile]
 - [itertools.takewhile()][python_itertools_takewhile]
@@ -57,6 +60,9 @@ layout: page
 [python_asterisk]: {{ site.baseurl }}{% link _posts/2020-04-14-python_asterisk_operator.md %}
 
 [python_collections_counter]: {{ site.baseurl }}{% link _posts/2020-03-13-python_collections_counter.md %}
+
+[python_functools_reduce]: {{ site.baseurl }}{% link _posts/2020-04-14-python_functools_reduce.md %}
+
 [python_itertools_cycle]: {{ site.baseurl }}{% link _posts/2020-03-13-python_itertools_cycle.md %}
 [python_itertools_dropwhile]: {{ site.baseurl }}[% link _posts/2020-03-14-python_itertools_dropwhile.md %}
 [python_itertools_takewhile]: {{ site.baseurl }}[% link _posts/2020-03-14-python_itertools_takewhile.md %}
