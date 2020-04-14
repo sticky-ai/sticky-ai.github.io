@@ -23,10 +23,10 @@ layout: page
 
 <font color="#2851a4"><h2>Python</h2></font>
 ### Python Programming
-- [python. iterator][python_iterator]
-- [python. generator][python_generator]
-- [python. lambda expression][python_lambda]
-- [python. asterisk operator][python_asterisk]
+- [python. Iterator][python_iterator]
+- [python. Generator][python_generator]
+- [python. Lambda Expression][python_lambda]
+- [python. Asterisk(*) Operator][python_asterisk]
 
 
 ### Python Libraries
