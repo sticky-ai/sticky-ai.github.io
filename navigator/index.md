@@ -23,9 +23,11 @@ layout: page
 
 <font color="#2851a4"><h2>Python</h2></font>
 ### Python Programming
-- [python.iterator][python_iterator]
-- [python.generator][python_generator]
-- [python.lambda expression][python_lambda]
+- [python. iterator][python_iterator]
+- [python. generator][python_generator]
+- [python. lambda expression][python_lambda]
+- [python. asterisk operator][python_asterisk]
+
 
 ### Python Libraries
 - [collections.Counter()][python_collections_counter]
@@ -52,6 +54,7 @@ layout: page
 [python_iterator]: {{ site.baseurl }}{% link _posts/2020-03-29-python_iterator.md %}
 [python_generator]: {{ site.baseurl }}{% link _posts/2020-04-02-python_generator.md %}
 [python_lambda]: {{ site.baseurl }}{% link _posts/2020-04-13-python_lambda_expression.md %}
+[python_asterisk]: {{ site.baseurl }}{% link _posts/2020-04-14-python_asterisk_operator.md %}
 
 [python_collections_counter]: {{ site.baseurl }}{% link _posts/2020-03-13-python_collections_counter.md %}
 [python_itertools_cycle]: {{ site.baseurl }}{% link _posts/2020-03-13-python_itertools_cycle.md %}
