@@ -11,8 +11,7 @@ tags:
 
 > functools.reduce(function, iterator, initializer = None)
 
-`functools` 모듈에 속해있는 `reduce`는 iterator의 요소들을 전달받은 함수에 대입하여 하나의 결과를 출력하는 함수입니다. 이를 식으로 표현하면 다음과 같습니다.
-$$ function : f(x, y) = x \times y,  \quad iterator : [a_1, \; a_2, \; a_3, \; a_4] $$ 
+`functools` 모듈에 속해있는 `reduce`는 iterator의 요소들을 전달받은 함수에 대입하여 하나의 결과를 출력하는 함수입니다. `x`와 `y`를 인자로 받는 함수가 있고, 1차원 리스트 `[a1, a2, a3, a4]`가 있을 때 `reduce` 함수는 다음과 같은 과정을 걸쳐 결과를 반환합니다.
 
 $$ {f} \cdot ({\ f} \cdot ({\ f}(a_1, \; a_2), \; a_3), \; a_4) $$
 
