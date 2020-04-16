@@ -20,9 +20,13 @@ layout: page
 - [ML4NLP. Part 1. Text Classification & Sentence Representation 1][ml4nlp_part1_1]
 - [ML4NLP. Part 1. Text Classification & Sentence Representation 2][ml4nlp_part1_2]
 
+<font color="#2851a4"><h2>Tensorflow</h2></font>
+### Tensorflow Basic
+- [Tensorflow Basic. Overview of the Tensorflow][tf_basic_overview]
+
 
 <font color="#2851a4"><h2>Python</h2></font>
-### Python Programming
+### Python Basic
 - [Python. Iterator][python_iterator]
 - [Python. Generator][python_generator]
 - [Python. Lambda Expression][python_lambda]
@@ -53,6 +57,8 @@ layout: page
 
 [ml4nlp_part1_1]: {{ site.baseurl }}{% link _posts/2020-02-18-ml4nlp_text_classification_sentence_representation_1.md %}
 [ml4nlp_part1_2]: {{ site.baseurl }}{% link _posts/2020-02-19-ml4nlp_text_classification_sentence_representation_2.md %}
+
+[tf_basic_overview]: {{ site.baseurl }}{% link _posts/2020-04-16-tensorflow_basic_overview.md %}
 
 [python_iterator]: {{ site.baseurl }}{% link _posts/2020-03-29-python_iterator.md %}
 [python_generator]: {{ site.baseurl }}{% link _posts/2020-04-02-python_generator.md %}
