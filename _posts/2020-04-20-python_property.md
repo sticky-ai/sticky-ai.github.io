@@ -1,5 +1,5 @@
 ---
-title: Python. Property
+title: Python. @Property
 date: 2020-04-20
 categories:
 - Python
