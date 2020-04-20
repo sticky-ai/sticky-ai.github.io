@@ -13,12 +13,14 @@ layout: page
 - [ML-Basic. Part 5. Optimization Methods][mlbasic_part5]
 - [ML-Basic. Part 5-1. Gradient-based Optimization][mlbasic_part5_1]
 - [ML-Basic. Part 6. Backpropagation][mlbasic_part6]
+
 ---
 
 <font color="#2851a4"><h2>Natural Language Processing</h2></font>
 ### Machine Learning for Natural Language Processing
 - [ML4NLP. Part 1. Text Classification & Sentence Representation 1][ml4nlp_part1_1]
 - [ML4NLP. Part 1. Text Classification & Sentence Representation 2][ml4nlp_part1_2]
+
 ---
 
 <font color="#2851a4"><h2>Tensorflow</h2></font>
@@ -26,6 +28,7 @@ layout: page
 - [Tensorflow Basic. Overview of the Tensorflow][tf_basic_overview]
 
 ---
+
 <font color="#2851a4"><h2>Python</h2></font>
 ### Python Basic
 - [Python. Iterator][python_iterator]
@@ -33,7 +36,7 @@ layout: page
 - [Python. Lambda Expression][python_lambda]
 - [Python. Asterisk(*) Operator][python_asterisk]
 - [Python. List Comprehension][python_list_comprehension] 
-- [Python. Static & Class Method][python_static_and_class_method]
+- [Python. @staticmethod & @classmethod][python_static_and_class_method]
 
 ### Python Libraries
 - [collections.Counter()][python_collections_counter]
@@ -48,6 +51,7 @@ layout: page
 - [itertools.product()][python_itertools_product]
 - [itertools.accumulate()][python_itertools_accumulate]
 - [itertools.chain()][python_itertools_chain]
+
 ---
 
 [mlbasic_part1]: {{ site.baseurl }}{% link _posts/2020-02-04-ml_basic_overview.md %}
