@@ -83,28 +83,28 @@ my_add.__add__(10) # 115
 * `__abs__(self)` : `abs()` 정의
 
 **비교 연산자**
-* `__lt__(self, other)` : less than, x < y 정의
-* `__le__(self, other)` : less equal, x <= y 정의
-* `__gt__(self, other)` : greater than, x > y 정의
-* `__ge__(self, other)` : greater equal, x >= y 정의
-* `__eq__(self, other)` : equal, x == y 정의
-* `__ne__(self, other)` : not equal, x != y 정의
+* `__lt__(self, other)` : less than, $x < y$ 정의
+* `__le__(self, other)` : less equal, $x <= y$ 정의
+* `__gt__(self, other)` : greater than, $x > y$ 정의
+* `__ge__(self, other)` : greater equal, $x >= y$ 정의
+* `__eq__(self, other)` : equal, $x == y$ 정의
+* `__ne__(self, other)` : not equal, $x != y$ 정의
 
 **산술 연산자**
-* `__add__(self, other)` : x + y 정의
-* `__sub__(self, other)` : x - y 정의
-* `__mul__(self, other)` : x * y 정의
-* `__matmul__(self, other)` : x @ y 정의
-* `__truediv__(self, other)` : x / y 정의
-* `__floordiv__(self, other)` : x // y 정의
-* `__mod__(self, other)` : x % y 정의
-* `__pow__(self, other[, modulo])` : x ** y 정의
+* `__add__(self, other)` : $x + y$ 정의
+* `__sub__(self, other)` : $x - y$ 정의
+* `__mul__(self, other)` : $x * y$ 정의
+* `__matmul__(self, other)` : $x @ y$ 정의
+* `__truediv__(self, other)` : $x / y$ 정의
+* `__floordiv__(self, other)` : $x // y$ 정의
+* `__mod__(self, other)` : $x % y$ 정의
+* `__pow__(self, other[, modulo])` : $x ** y$ 정의
 * `__round__(self[, n])` : 반올림 함수 `round()` 정의
 
 **논리 연산자**
-* `__and__(self, other)` : x & y 정의
-* `__or__(self, other)` : x \| y 정의
-* `__xor__(self, other)` : x ^ y 정의
+* `__and__(self, other)` : $x & y$ 정의
+* `__or__(self, other)` : $x | y$ 정의
+* `__xor__(self, other)` : $x \^ y$ 정의
 
 **타입 변환**
 * `__int__(self)` : `int()` 정의
