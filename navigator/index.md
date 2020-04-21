@@ -36,9 +36,9 @@ layout: page
 - [Python. Lambda Expression][python_lambda]
 - [Python. Asterisk(*) Operator][python_asterisk]
 - [Python. List Comprehension][python_list_comprehension] 
-- [Python. @staticmethod & @classmethod][python_static_and_class_method]
-- [Python. @property][python_property]
-
+- [Python. 정적 메소드(@staticmethod & @classmethod)][python_static_and_class_method]
+- [Python. 매직 메소드(Magic Method)][python_magic_method]
+- [Python @property][python_property]
 
 ### Python Libraries
 - [collections.Counter()][python_collections_counter]
@@ -75,7 +75,10 @@ layout: page
 [python_asterisk]: {{ site.baseurl }}{% link _posts/2020-04-14-python_asterisk_operator.md %}
 [python_list_comprehension]: {{ site.baseurl }}{% link _posts/2020-04-15-python_list_comprehension.md %}
 [python_static_and_class_method]: {{ site.baseurl }}{% link _posts/2020-04-20-python_static_and_class_method.md %}
+[python_magic_method]: {{ site.baseurl }}{% link _posts/2020-04-21-python_magic_method.md %}
 [python_property]: {{ site.baseurl }}{% link _posts/2020-04-20-python_property.md %}
+
+
 
 [python_collections_counter]: {{ site.baseurl }}{% link _posts/2020-03-13-python_collections_counter.md %}
 
