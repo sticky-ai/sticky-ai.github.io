@@ -103,7 +103,7 @@ my_add.__add__(10) # 115
 
 **논리 연산자**
 * `__and__(self, other)` : x & y 정의
-* `__or__(self, other)` : x | y 정의
+* `__or__(self, other)` : x \| y 정의
 * `__xor__(self, other)` : x ^ y 정의
 
 **타입 변환**
