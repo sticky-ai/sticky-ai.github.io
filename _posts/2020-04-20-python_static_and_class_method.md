@@ -1,5 +1,5 @@
 ---
-title: Python. 정적 메소드(Static Method & Class Method)
+title: Python. 정적 메소드(@classmethod & @staticmethod)
 date: 2020-04-20
 categories:
 - Python
