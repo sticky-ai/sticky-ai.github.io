@@ -2,8 +2,6 @@
 layout: page
 ---
 
-주제별로 모은 포스트들입니다. 한 포스트가 여러 주제에 속하기도 합니다.
-
 <font color="#2851a4"><h2>Machine Learning</h2></font>
 ### Machine Learning Basic
 - [ML-Basic. Part 1. Overview][mlbasic_part1]
@@ -38,13 +36,11 @@ layout: page
 - [Python. List Comprehension][python_list_comprehension] 
 - [Python. 정적 메소드(@staticmethod & @classmethod)][python_static_and_class_method]
 - [Python. 매직 메소드(Magic Method)][python_magic_method]
-- [Python @property][python_property]
+- [Python. @property][python_property]
 
 ### Python Libraries
 - [collections.Counter()][python_collections_counter]
-
 - [functools.reduce()][python_functools_reduce]
-
 - [itertools.cycle()][python_itertools_cycle]
 - [itertools.dropwhile()][python_itertools_dropwhile]
 - [itertools.takewhile()][python_itertools_takewhile]
