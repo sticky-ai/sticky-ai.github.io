@@ -37,6 +37,7 @@ layout: page
 - [Python. 정적 메소드(@staticmethod & @classmethod)][python_static_and_class_method]
 - [Python. 매직 메소드(Magic Method)][python_magic_method]
 - [Python. @property][python_property]
+- [Python. 정규 표현식(Regular Expression)][python_regular_expression_1]
 
 ### Python Libraries
 - [collections.Counter()][python_collections_counter]
@@ -73,7 +74,7 @@ layout: page
 [python_static_and_class_method]: {{ site.baseurl }}{% link _posts/2020-04-20-python_static_and_class_method.md %}
 [python_magic_method]: {{ site.baseurl }}{% link _posts/2020-04-21-python_magic_method.md %}
 [python_property]: {{ site.baseurl }}{% link _posts/2020-04-20-python_property.md %}
-
+[python_regular_expression_1]: {{ site.baseurl }}{% link _posts/2020-04-28-python_regular_expression_1.md %}
 
 
 [python_collections_counter]: {{ site.baseurl }}{% link _posts/2020-03-13-python_collections_counter.md %}
