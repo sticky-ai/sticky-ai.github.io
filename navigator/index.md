@@ -37,7 +37,7 @@ layout: page
 - [Python. 정적 메소드(@staticmethod & @classmethod)][python_static_and_class_method]
 - [Python. 매직 메소드(Magic Method)][python_magic_method]
 - [Python. @property][python_property]
-- [Python. 정규 표현식(Regular Expression)][python_regular_expression_1]
+- [Python. 정규 표현식(Regular Expression) - 1][python_regular_expression_1]
 
 ### Python Libraries
 - [collections.Counter()][python_collections_counter]
@@ -82,11 +82,11 @@ layout: page
 [python_functools_reduce]: {{ site.baseurl }}{% link _posts/2020-04-14-python_functools_reduce.md %}
 
 [python_itertools_cycle]: {{ site.baseurl }}{% link _posts/2020-03-13-python_itertools_cycle.md %}
-[python_itertools_dropwhile]: {{ site.baseurl }}[% link _posts/2020-03-14-python_itertools_dropwhile.md %}
-[python_itertools_takewhile]: {{ site.baseurl }}[% link _posts/2020-03-14-python_itertools_takewhile.md %}
-[python_itertools_permutations]: {{ site.baseurl }}[% link _posts/2020-03-19-python_itertools_permutations.md %}
-[python_itertools_combinations]: {{ stie.baseurl }}[% link _posts/2020-03-23-python_itertools_combinations.md %}
-[python_itertools_product]: {{ site.baseurl }}[% link _posts/2020-03-24-python_itertools_product.md %}
+[python_itertools_dropwhile]: {{ site.baseurl }}{% link _posts/2020-03-14-python_itertools_dropwhile.md %}
+[python_itertools_takewhile]: {{ site.baseurl }}{% link _posts/2020-03-14-python_itertools_takewhile.md %}
+[python_itertools_permutations]: {{ site.baseurl }}{% link _posts/2020-03-19-python_itertools_permutations.md %}
+[python_itertools_combinations]: {{ stie.baseurl }}{% link _posts/2020-03-23-python_itertools_combinations.md %}
+[python_itertools_product]: {{ site.baseurl }}{% link _posts/2020-03-24-python_itertools_product.md %}
 [python_itertools_accumulate]: {{ site.baseurl }}{% link _posts/2020-03-26-python_itertools_accumulate.md %}
 [python_itertools_chain]: {{ site.baseurl }}{% link _posts/2020-03-26-python_itertools_chain.md %}
 
