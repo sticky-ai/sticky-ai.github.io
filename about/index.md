@@ -19,7 +19,7 @@ $\ \$ (Master Course, Dept. of IT Convergence Engineering, Gachon Univ.)
 * 가천대학교 공과대학 컴퓨터공학과 학사 (2011.03 ~ 2018.02)  
 $\ \$ (Bachelor's Degree, Dept. of Computer Engineering, Gachon Univ.)
 
----
+--
 
 ## PROJECTS
 
@@ -43,7 +43,7 @@ $\ \$ (Bachelor's Degree, Dept. of Computer Engineering, Gachon Univ.)
 
 	모델 구축 과정에서 뇌질환 위험도를 보다 객관적으로 측정할 수 있도록 기존 레퍼런스 자료(논문, 임상의 자문)를 취합하여 자체적인 뇌파(알파파, 베타파, 세타파) 기반의 뇌질환 위험도 측정 지표를 개발하였으며, 해당 지표를 기반으로 환자 데이터를 뇌질환 위험군 및 비위험군으로 구분하였으며, 해당 클래스를 기반으로 뇌질환 분류 모델을 구축하였습니다.
 
----
+--
 
 ## SKILLS
 
