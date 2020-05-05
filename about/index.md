@@ -4,18 +4,18 @@ type: about
 ---
 
 
-NAME   : JINHYEOK PARK
-MOBILE : +82.010.7159.4918
-E-MAIL : rev.hyeok@gmail.com
-GITHUB : https://github.com/sticky-ai
+NAME   : JINHYEOK PARK\
+MOBILE : +82.010.7159.4918\
+E-MAIL : rev.hyeok@gmail.com\
+GITHUB : https://github.com/sticky-ai\
 
 --
 
 ## EDUCATION
-* 가천대학교 IT융합대학 IT융합공학과 석사과정 (2018.03 ~ )
+* 가천대학교 IT융합대학 IT융합공학과 석사과정 (2018.03 ~ )\
 $\quad$ (Master Course, Dept. of IT Convergence Engineering, Gachon Univ.)
 
-* 가천대학교 공과대학 컴퓨터공학과 학사 (2011.03 ~ 2018.02)
+* 가천대학교 공과대학 컴퓨터공학과 학사 (2011.03 ~ 2018.02)\
 $\quad$ (Bachelor's Degree, Dept. of Computer Engineering, Gachon Univ.)
 
 ---
