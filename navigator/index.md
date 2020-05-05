@@ -37,7 +37,7 @@ layout: page
 - [Python. 정적 메소드(@staticmethod & @classmethod)][python_static_and_class_method]
 - [Python. 매직 메소드(Magic Method)][python_magic_method]
 - [Python. @property][python_property]
-- [Python. 정규 표현식(Regular Expression) - 1][python_regular_expression_1]
+- [Python. 정규 표현식(Regular Expression) (1)][python_regular_expression_1]
 
 ### Python Libraries
 - [collections.Counter()][python_collections_counter]
