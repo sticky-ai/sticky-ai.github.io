@@ -4,10 +4,10 @@ type: about
 ---
 
 ## STICKY-AI
-NAME   : JINHYEOK PARK  
-MOBILE : +82.010.7159.4918  
-E-MAIL : rev.hyeok@gmail.com  
-GITHUB : [GITHUB LINK][GITHUB_LINK] 
+> NAME : Jinhyeok Park  
+> MOBILE : +82.010.7159.4918  
+> E-MAIL : rev.hyeok@gmail.com  
+> GITHUB : [https://github.com/sticky-ai][GITHUB_LINK] 
 
 [GITHUB_LINK]: https://github.com/sticky-ai  
 
