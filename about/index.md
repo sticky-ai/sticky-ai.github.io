@@ -67,23 +67,23 @@ type: about
 
 ### Paper
 
-* DNN-based epilepsy EEG system for classification of epilepsy patients, Korean Institute of Information Scientists and Engineers, 2019
-* Imagery signal-based deep learning method for prescreening major depressive disorder, ICCC 2019:Cognitive Computing, 2019
-* Super learning ensemble technique for classifying breast cancer, Health Informatics Journal, 2019
-* A learning attention improvement system based on neurofeedback, Journal of Engineering and Applied Sciences, 2018
-* A research of calculating attention concentration considering visual waves on concentration, The Korean Society of Medical Informatics, 2018
-* The effect of binaural beat-based audiovisual stimulation on brain waves on concentration, The Korean Institute of communications and Information sciences
-* Hybird model for concentration state classification based on EEG signal, Journal of Korea Society of Computer and Information, 2018
-* Design of user concentration classification model by EEG analysis based on visual SCPT, Journal of Korea Society of Computer and Information, 2018
-* Big data analysis of stress on adolescent mental health, Journal of Korea Society Computer and Information, 2017
+* DNN-based epilepsy EEG system for classification of epilepsy patients, _Korean Institute of Information Scientists and Engineers_, 2019
+* Imagery signal-based deep learning method for prescreening major depressive disorder, _ICCC 2019:Cognitive Computing_, 2019
+* Super learning ensemble technique for classifying breast cancer, _Health Informatics Journal_, 2019
+* A learning attention improvement system based on neurofeedback, _Journal of Engineering and Applied Sciences_, 2018
+* A research of calculating attention concentration considering visual waves on concentration, _The Korean Society of Medical Informatics_, 2018
+* The effect of binaural beat-based audiovisual stimulation on brain waves on concentration, _The Korean Institute of communications and Information sciences_, 2018
+* Hybird model for concentration state classification based on EEG signal, _Journal of Korea Society of Computer and Information_, 2018
+* Design of user concentration classification model by EEG analysis based on visual SCPT, _Journal of Korea Society of Computer and Information_, 2018
+* Big data analysis of stress on adolescent mental health, _Journal of Korea Society Computer and Information_, 2017
 
 ### Poster
 
-* Improving clinical decision support system by analyzing prognostic factors of colorectal cancer stage IV patients, AMIA 2019 Annual Symposium, 2019
-* An ensemble algorithm model for the diagnosis of colorectal cancer based on machine learning, 39th Congress of the European Society of Surgical Oncology, 2019
-* Improving clinical decision support system by analyzing risk factors of recurrence of colorectal cancer patients, Korean Society of Artificial Intelligence in Medicine, 2019
-* Evaluation of diagnosis model for colorectal cancer by feature selection method : using PLCO dataset, The Korean Society of Coloproctology, 2019
-* Diagnosis model for colorectal cancer based on machine learning : using PLCO dataset, SISSO 2019 : Seoul International Symposium of Surgical Oncology, 2019
+* Improving clinical decision support system by analyzing prognostic factors of colorectal cancer stage IV patients, _AMIA 2019 Annual Symposium_, 2019
+* An ensemble algorithm model for the diagnosis of colorectal cancer based on machine learning, _39th Congress of the European Society of Surgical Oncology_, 2019
+* Improving clinical decision support system by analyzing risk factors of recurrence of colorectal cancer patients, _Korean Society of Artificial Intelligence in Medicine_, 2019
+* Evaluation of diagnosis model for colorectal cancer by feature selection method : using PLCO dataset, _The Korean Society of Coloproctology_, 2019
+* Diagnosis model for colorectal cancer based on machine learning : using PLCO dataset, _SISSO 2019 : Seoul International Symposium of Surgical Oncology_, 2019
 
 ### Patent
 
