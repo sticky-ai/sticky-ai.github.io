@@ -27,8 +27,14 @@ type: about
 
 외부 활동으로, 데이터 분석에 관심을 가지고 있는 중, 고등학생들에게 R언어 기반의 데이터 분석 교육을 약 1년 간 진행한 경험이 있습니다. 또한, 딥러닝 및 기계학습의 최신 기술들이 실제 제품 및 SW에 어떻게 적용되는지에 대한 호기심을 해결하기 위해 다양한 기관 및 기업에서 개최하는 컨퍼런스 및 심포지움에 참석하여 최신 동향을 파악하는 것을 좋아합니다. 국내 의료분야 최대 규모 학회인 대한의료정보학회에서 주관하는 추계학술대회에 참가하여 'Hybird Model for Concentration state classification based on EEG Signal' 이라는 주제로 논문을 발표하였으며, 우수상을 수상하였습니다. 최근에는 미국 워싱턴 주에서 개최된 AMIA(America Medical Informatics Association) 심포지움에 참석하여 논문 발표를 진행하였습니다. 
 
-저의 연구 분야는 당시에 직면한 연구 주제에 따라 바뀌었습니다. 주로 의료 분야에 해당하는 프로젝트를 경험하며 EMR 데이터와 같은 정형 데이터와 의료 영상 혹은 이미지와 같은 비정형 데이터를 모두 경험해보았습니다. 특히, 의료 데이터를 분석하며 어떤 데이터를 사용하느냐, 데이터를 어떻게 사용하느냐에 따라 전혀 다른 방향으로 모델이 구축될 수 있음을 깨달았습니다. '쓰레기가 들어가면 쓰레기가 나온다' 라는 말처럼 모델의 성능은 분석가의 데이터 이해도와 선형성을 띈다고 생각합니다. 따라서, 무엇보다도 분석가가 데이터를 올바르고 정확하게 이해하고 사용하는 것이 무엇보다 중요하다는 것을 마음속에 새기고 있습니다.i
+저의 연구 분야는 당시에 직면한 연구 주제에 따라 바뀌었습니다. 주로 의료 분야에 해당하는 프로젝트를 경험하며 EMR 데이터와 같은 정형 데이터와 의료 영상 혹은 이미지와 같은 비정형 데이터를 모두 경험해보았습니다. 특히, 의료 데이터를 분석하며 어떤 데이터를 사용하느냐, 데이터를 어떻게 사용하느냐에 따라 전혀 다른 방향으로 모델이 구축될 수 있음을 깨달았습니다. '쓰레기가 들어가면 쓰레기가 나온다' 라는 말처럼 모델의 성능은 분석가의 데이터 이해도와 선형성을 띈다고 생각합니다. 따라서, 무엇보다도 분석가가 데이터를 올바르고 정확하게 이해하고 사용하는 것을 최우선적으로 생각합니다.
 
+
+--
+
+## SKILLS
+
+데이터 분석, 알고리즘 개발, 머신러닝 및 딥러닝 모델 구현에 **Python**을 사용하고 있습니다. 데이터 분석 시, 통계 관련 라이브러리 및 데이터 시각화를 위해 필요에 따라 **R** 또한 활용하고 있습니다. 딥러닝계 모델을 구축할 때에는 **Tensorflow**를 활용합니다.
 
 
 --
@@ -57,6 +63,50 @@ type: about
 
 --
 
-## SKILLS
+## QUANTITATIVE OUTCOME
 
-데이터 분석, 알고리즘 개발, 모델 구현에 **Python**을 사용하고 있습니다. 데이터 분석 시, 통계 관련 라이브러리 활용 및 시각화를 위해 **R** 또한 필요에 따라 활용하고 있습니다. 딥러닝 모델을 구축할 때에는 주로 **Tensorflow**를 활용합니다. 
+### Paper
+
+* DNN-based epilepsy EEG system for classification of epilepsy patients, Korean Institute of Information Scientists and Engineers, 2019
+* Imagery signal-based deep learning method for prescreening major depressive disorder, ICCC 2019:Cognitive Computing, 2019
+* Super learning ensemble technique for classifying breast cancer, Health Informatics Journal, 2019
+* A learning attention improvement system based on neurofeedback, Journal of Engineering and Applied Sciences, 2018
+* A research of calculating attention concentration considering visual waves on concentration, The Korean Society of Medical Informatics, 2018
+* The effect of binaural beat-based audiovisual stimulation on brain waves on concentration, The Korean Institute of communications and Information sciences
+* Hybird model for concentration state classification based on EEG signal, Journal of Korea Society of Computer and Information, 2018
+* Design of user concentration classification model by EEG analysis based on visual SCPT, Journal of Korea Society of Computer and Information, 2018
+* Big data analysis of stress on adolescent mental health, Journal of Korea Society Computer and Information, 2017
+
+### Poster
+
+* Improving clinical decision support system by analyzing prognostic factors of colorectal cancer stage IV patients, AMIA 2019 Annual Symposium, 2019
+* An ensemble algorithm model for the diagnosis of colorectal cancer based on machine learning, 39th Congress of the European Society of Surgical Oncology, 2019
+* Improving clinical decision support system by analyzing risk factors of recurrence of colorectal cancer patients, Korean Society of Artificial Intelligence in Medicine, 2019
+* Evaluation of diagnosis model for colorectal cancer by feature selection method : using PLCO dataset, The Korean Society of Coloproctology, 2019
+* Diagnosis model for colorectal cancer based on machine learning : using PLCO dataset, SISSO 2019 : Seoul International Symposium of Surgical Oncology, 2019
+
+### Patent
+
+* 청각 자극을 통한 주의집중력 강화 시스템 및 방법, 10-2018-0081430, 2019
+* 다중감각을 활용한 주의집중력 강화 시스템, 10-2018-0140252, 2019
+* 집중력 강화를 위한 이미지트레이닝용 장갑 모듈 시스템, 10-2018-0145516, 2019
+* 텍스트마이닝을 이용한 뇌질환 연구 보조 시스템, 방법 및 컴퓨터-판독가능 매체, 10-2019-0086161, 2019
+* 사용자 뇌질환 질단 방법, 시스템 및 컴퓨터-판독가능 매체, 10-2019,0158002, 2019
+* ANT 기반 맞춤형 학습 집중력 향상 시스템 및 방법, 10-2017-0164942, 2018
+* 대장암 임상 의사결정지원 시스템 및 방법, 10-2018-0123966, 2018
+* EEG 기반 학습집중력파 검출 장치 및 방법, 10-2017-0164952, 2017
+
+### SW Registration
+
+* 뇌질환 임상의사결정지원 SW, C-2019-020207, 한국저작권위원회, 2019
+* 뇌파 이미지를 이용한 우울증 사전 진단 시스템, C-2019-032863,  한국저작권위원회, 2019
+* 대장암 치료 EMR 기반 데이터 밸런싱 및 재발 예측 모델, C-2019-035270, 한국저작권위원회, 2018
+* 머신러닝 기반 뇌질환 분류 분석, C-2018-031433,  한국저작권위원회, 2018
+* 대장암 치료를 위한 의사결정지원 SW, C-2018-033399,  한국저작권위원회, 2018
+
+### Technology Transfer
+
+* EEG 기반 학습집중력파 검출 장치 및 방법, Logibros
+* ANT 기반 맞춤형 학습집중력 향상 시스템 및 방법, Logibros
+
+* 
