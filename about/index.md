@@ -39,7 +39,7 @@ type: about
 
 --
 
-## PROJECTS
+## PROJECT EXPERIENCES
 
 * 의료 빅데이터 분석 지능형SW 기술 개발
 
@@ -109,4 +109,3 @@ type: about
 * EEG 기반 학습집중력파 검출 장치 및 방법, Logibros
 * ANT 기반 맞춤형 학습집중력 향상 시스템 및 방법, Logibros
 
-* 
