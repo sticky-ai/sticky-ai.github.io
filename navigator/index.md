@@ -51,10 +51,9 @@ layout: page
 - [itertools.accumulate()][python_itertools_accumulate]
 - [itertools.chain()][python_itertools_chain]
 
-### Algorithms
+### Algorithm
 - [행렬에서 대각 성분을 출력하는 방법][get_matrix_diagonal]
 
----
 
 ---
 
