@@ -51,6 +51,11 @@ layout: page
 - [itertools.accumulate()][python_itertools_accumulate]
 - [itertools.chain()][python_itertools_chain]
 
+### Algorithms
+- [행렬에서 대각 성분을 출력하는 방법][get_matrix_diagonal]
+
+---
+
 ---
 
 [mlbasic_part1]: {{ site.baseurl }}{% link _posts/2020-02-04-ml_basic_overview.md %}
@@ -90,7 +95,7 @@ layout: page
 [python_itertools_accumulate]: {{ site.baseurl }}{% link _posts/2020-03-26-python_itertools_accumulate.md %}
 [python_itertools_chain]: {{ site.baseurl }}{% link _posts/2020-03-26-python_itertools_chain.md %}
 
-
+[get_matrix_diagonal]: {{ site.baseurl }}{% link _posts/2020-06-22-algorithm_get_matrix_diagonal.md %}
 
 
 
