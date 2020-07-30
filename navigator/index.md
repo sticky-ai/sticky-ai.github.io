@@ -2,6 +2,8 @@
 layout: page
 ---
 
+---
+
 <font color="#2851a4"><h2>Data Analysis</h2></font>
 ### Survival Analysis
 - [Survival Analysis. Kaplan-Meier Estimation][survival_analysis_kaplan_meier]
@@ -63,7 +65,7 @@ layout: page
 
 ---
 
-[survival_analysis_kaplan_meier]: {{ site.baseurl }}{% link _posts/2020-07-29_survival_analysis_kaplan_meier.md %}
+[survival_analysis_kaplan_meier]: {{ site.baseurl }}{% link _posts/2020-07-29-survival_analysis_kaplan_meier.md %}
 
 [mlbasic_part1]: {{ site.baseurl }}{% link _posts/2020-02-04-ml_basic_overview.md %}
 [mlbasic_part2]: {{ site.baseurl }}{% link _posts/2020-02-05-ml_basic_hypothesis_set.md %}
