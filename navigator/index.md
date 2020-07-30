@@ -4,7 +4,7 @@ layout: page
 
 <font color="#2851a4"><h2>Data Analysis</h2></font>
 ### Survival Analysis
-- [Survival Analysis. Kaplan Meier Estimation][survival_analysis_kaplan_meier]
+- [Survival Analysis. Kaplan-Meier Estimation][survival_analysis_kaplan_meier]
 
 ---
 
