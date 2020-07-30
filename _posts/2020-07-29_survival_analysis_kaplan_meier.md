@@ -1,5 +1,3 @@
-
-
 ---
 title: Survival Analysis. Kaplan Meier Estimation
 date: 2020-07-29
