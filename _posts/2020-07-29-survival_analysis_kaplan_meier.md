@@ -48,7 +48,7 @@ data = pd.DataFrame({
 data
 {% endhighlight %}
 
-먼저, 예제 데이터를 생성했습니다. 총 10개의 샘플에 대해 시간 및 사건 발생 여부를 입력하였습니다. 아래와 같이 데이터가 생성되었음을 확인할 수 있습니다.
+먼저, 예제 데이터를 생성했습니다. 총 10개의 샘플에 대해 시간 및 사건 발생 여부를 입력하였습니다. 사건이 발생하면 **True**, 사건이 발생하지 않은 경우는 **False**로 표시하였습니다. 결과적으로 아래와 같이 데이터가 생성되었음을 확인할 수 있습니다.
 
 ![IMAGE]({{ "assets/resources/2020-07-29-survival_analysis_kaplan_meier/example_data.jpg" | absolute_url }}){: width="70%" height="70%"}
 
@@ -70,6 +70,7 @@ plot
 
 `plot_survival_function()` 함수를 통해 Kaplan-Meier 곡선을 그릴 수 있습니다. X축은 시간이며, Y축은 누적생존율 $S(t)$를 나타내도록 하였습니다.
 
+![IMAGE]({{ "assets/resources/2020-07-29-survival_analysis_kaplan_meier/kaplan_meier_curve.jpg" | absolute_url }}){: width="70%" height="70%"}
 
 ### Kaplan-Meier Curve 해석
 생성된 Kaplan Meier Curve를 통해 다양한 의사결정을 내릴 수 있습니다. 편의를 위해 시간의 단위는 **월(Month)**로 지칭하겠습니다.
