@@ -1,7 +1,7 @@
 
 
 ---
-title: Survival Analysis. Kaplan-Meier
+title: Survival Analysis. Kaplan Meier Estimation
 date: 2020-07-29
 categories:
 - Survival Analysis
@@ -29,7 +29,6 @@ tags:
 궁극적으로 3가지 기본 개념과 2가지 함수를 통해 생존 분석을 진행할 수 있습니다. 아래의 예제를 통해 상기 개념들이 어떻게 적용되는지 확인해보겠습니다.
 
 ## Kaplan-Meier Estimation(Curve)
----
 
 일반적으로 생존 함수는 `Kaplan-Meier Estimation` 방법을 통해 추정할 수 있습니다. 해당 방법은 적은 표본에 대해서도 적용할 수 있기 때문에 폭넓게 사용됩니다. `Kaplan-Meier Estimation` 방법을 통해 집단 간의 시간에 따른 생존율을 쉽게 비교할 수 있습니다.
 
@@ -54,11 +53,7 @@ data
 
 먼저, 예제 데이터를 생성했습니다. 총 10개의 샘플에 대해 시간 및 사건 발생 여부를 입력하였습니다. 아래와 같이 데이터가 생성되었음을 확인할 수 있습니다.
 
-<center>
-
 ![IMAGE]({{ "assets/resources/2020-07-29_survival_analysis_kaplan_meier/example_data.jpg" | absolute_url }}){: width="70%" height="70%"}
-
-</center>
 
 
 ### Kaplan-Meier Curve 그리기
@@ -79,11 +74,7 @@ plot
 
 `plot_survival_function()` 함수를 통해 Kaplan-Meier 곡선을 그릴 수 있습니다. X축은 시간이며, Y축은 누적생존율 $S(t)$를 나타내도록 하였습니다.
 
-<center>
-
 ![IMAGE]({{ "assets/resources/2020-07-29_survival_analysis_kaplan_meier/kaplan_meier_curve.jpg" | absolute_url }}){: width="70%" height="70%"}
-
-</center>
 
 ### Kaplan-Meier Curve 해석
 생성된 Kaplan Meier Curve를 통해 다양한 의사결정을 내릴 수 있습니다. 편의를 위해 시간의 단위는 **월(Month)**로 지칭하겠습니다.
