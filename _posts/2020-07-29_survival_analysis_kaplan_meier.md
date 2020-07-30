@@ -5,8 +5,10 @@ categories:
 - Survival Analysis
 tags:
 - Survival Analysis
-- Kaplan-Meier Curve
+- Kaplan Meier Estimation
+- Kaplan Meier Curve
 ---
+
 
 `생존 분석(Survival Analysis)`는 시간의 흐름에 따른 어떠한 사건의 발생 확률을 알아보는 통계 분석 및 예측 기법 중 하나입니다. 일반적으로 의료분야에서 특정 수술 방법 혹은 치료 방법에 따른 환자의 생존 기간을 분석할 때 활용하거나, 일반적인 IT 분야에서는 시간에 따른 사용자 이탈 분석에도 활용합니다. `Survival Analysis`에는 크게 3가지 주요 개념 `사건(Event)`, `시간(Time)`, `중도절단(Censored)`이 존재합니다. 
 
