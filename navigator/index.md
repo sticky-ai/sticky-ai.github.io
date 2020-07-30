@@ -6,6 +6,8 @@ layout: page
 ### Survival Analysis
 - [Survival Analysis. Kaplan Meier Estimation][survival_analysis_kaplan_meier]
 
+---
+
 <font color="#2851a4"><h2>Machine Learning</h2></font>
 ### Machine Learning Basic
 - [ML-Basic. Part 1. Overview][mlbasic_part1]
