@@ -50,6 +50,7 @@ data
 
 먼저, 예제 데이터를 생성했습니다. 총 10개의 샘플에 대해 시간 및 사건 발생 여부를 입력하였습니다. 아래와 같이 데이터가 생성되었음을 확인할 수 있습니다.
 
+![IMAGE]({{ "assets/resources/2020-02-19-ml4nlp_text_classification_sentence_representation_2/cbow_example.jpg" | absolute_url }}){: width="70%" height="70%"}
 
 ### Kaplan-Meier Curve 그리기
 
