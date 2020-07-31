@@ -8,7 +8,7 @@ tags:
 - Log Rank Test
 ---
 
-앞선 포스팅 [Kaplan-Meier Estimation]에서 구간생존율을 누적하여 누적생존율을 구하는 방법을 확인했습니다. 의료 분야에서는 생존 분석을 위해 다양한 방법들이 사용됩니다. Kaplan-Meier 방법이 특정 집단의 생존율을 추정하는 방법이라면, 이번 포스팅에서 살펴볼 `Log-Rank Test`는 두 집단의 생존율의 차이가 유의미하게 있는지 확인하기 위한 방법입니다. 기존의 생존 분석과 마찬가지로 **시간(Time)**과 **사건(Event)** 개념이 필요합니다. **Log-Rank Test**는 두 집단의 데이터를 병합하여 관찰 시간 순으로 정렬하고, 절단 데이터(Censored Data)를 제거합니다. 결과적으로 사건이 발생한 구간만을 남기는 방식으로 생존 분석을 진행합니다. 예제 데이터를 생성하여 Log-Rank Test를 진행해보겠습니다.
+앞선 포스팅 [Kaplan-Meier Estimation]에서 구간생존율을 누적하여 누적생존율을 구하는 방법을 확인했습니다. 의료 분야에서는 생존 분석을 위해 다양한 방법들이 사용됩니다. Kaplan-Meier 방법이 특정 집단의 생존율을 추정하는 방법이라면, 이번 포스팅에서 살펴볼 `Log-Rank Test`는 두 집단의 생존율의 차이가 유의미하게 있는지 확인하기 위한 방법입니다. 기존의 생존 분석과 마찬가지로 **시간(Time)**과 **사건(Event)** 개념이 필요합니다. **Log-Rank Test**는 두 집단의 데이터를 병합하여 관찰 시간 순으로 정렬하고, **절단 데이터(Censored Data)**를 제거합니다. 결과적으로 사건이 발생한 구간만을 남기는 방식으로 생존 분석을 진행합니다. 예제 데이터를 생성하여 Log-Rank Test를 진행해보겠습니다.
 
 {% highlight python %}
 import pandas as pd
@@ -24,7 +24,7 @@ data
 
 총 10개의 샘플 데이터를 생성하였습니다. 데이터는 `Time`, `Treatment`, `Event` 3개의 변수로 구성되며,`Treatment` 변수는 치료 방법에 따른 생존율을 확인하기 위해 추가하였습니다.
 
-![IMAGE]({{ "assets/resources/2020-07-31-survival_analysis_log_rank_test/example_data.jpg" | absolute_url }}){: width="70%" height="70%"}
+![IMAGE]({{ "assets/resources/2020-07-31-survival_analysis_log_rank_test/example_data.jpg" | absolute_url }}){: width="50%" height="50%"}
 
 먼저, **Kaplan-Meier Curve**를 그려 생존율이 어떻게 변화하는지 확인해보도록 하겠습니다. 데이터는 위에서 생성한 예제 데이터를 그대로 사용하겠습니다.
 
