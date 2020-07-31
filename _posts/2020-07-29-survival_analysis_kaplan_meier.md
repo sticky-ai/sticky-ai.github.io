@@ -1,5 +1,5 @@
 ---
-title: Survival Analysis. Kaplan Meier Estimation
+title: Survival Analysis. 카플란-마이어 추정 (Kaplan Meier Estimation)
 date: 2020-07-29
 categories:
 - Survival Analysis
