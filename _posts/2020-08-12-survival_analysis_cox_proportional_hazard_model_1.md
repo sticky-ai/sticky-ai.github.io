@@ -13,7 +13,7 @@ tags:
 
 앞선 `Kaplan-Meier`와 `Log-Rank Test` 방법은 생존율을 추정하는 가장 단순한 방법입니다. **시간(Time)**과 **사건(Event)**만을 고려하여 생존율을 추정하기 때문입니다. 이러한 측면에서 앞선 두 방법은 데이터의 특성을 전혀 반영하지 못하는 **Non-Parametric**한 분석 방법이라고 합니다. 이와 반대로, **Parametric** 방법은 생존 시간 분포(예를 들어 정규분포)가 존재한다고 가정하고 회귀 모델로 생존 기간을 예측하는 방법입니다. 대표적으로 `Linear Regression`이 있으며, 그 외에도 `Accelerated Failure Time Model`이 존재합니다.
 
-앞으로의 포스팅에서 다루게 될 `Cox Proportional Hazard Model (이하 Cox 모형)`은 모델이 데이터의 특성은 반영하지만, 생존 시간 분포를 반영하지 않습니다. 다시 말하면, 생존 시간에 대한 특정한 가정이 필요 없다는 점에서 비모수적인 특징을 가지고 있으나, 공변량이 주어졌을 때 특정한 식으로 데이터의 특징을 표현할 수 있기에 모수적인 특징도 가지고 있습니다. 이러한 관점에서 `CPH`는 **Semi-Parametric**한 생존 분석 방법이라고 할 수 있습니다.
+앞으로의 포스팅에서 다루게 될 `Cox Proportional Hazard Model (이하 Cox 모형)`은 모델이 데이터의 특성은 반영하지만, 생존 시간 분포를 반영하지 않습니다. 다시 말하면, 생존 시간에 대한 특정한 가정이 필요 없다는 점에서 비모수적인 특징을 가지고 있으나, 공변량이 주어졌을 때 특정한 식으로 데이터의 특징을 표현할 수 있기에 모수적인 특징도 가지고 있습니다. 이러한 관점에서 `Cox 모형`은 **Semi-Parametric**한 생존 분석 방법이라고 할 수 있습니다.
 
 ## Cox Proportional Hazard Model의 개념
 `Cox 모형`은 시간(Time) - 사건(Event) 데이터를 기반으로 예측 모형을 만드는 통계분석 혹은 생존분석 방법 중 하나입니다. Cox 모형은 Parametric 분석 방법인 회귀분석을 활용하여 **중도절단자료(Censored Data)**의 처리가 가능하며, 앞서 언급한 Kaplan-Meier 방법과 달리 사건 발생에 영향을 줄 수 있는 변수들의 특징을 반영한 모델을 구축할 수 있습니다. 
@@ -64,3 +64,8 @@ $$ S(t) = \exp[-H(t)] = 1 - F(t), t > 0 $$
 
 $$ HR = \frac{h_{2}(t)}{h_{1}(t)} $$ 
 
+
+## References
+1. Survival analysis: Part I — analysis of time-to-event, Junyong In et al., Korean Journal of Anesthesiology, 2018
+2. Survival Analysis - 3, [Internet] https://3months.tistory.com/349
+3. 생존분석 - 생존분석의 목적과 생존함수, 위험함수의 정의, [Internet] https://hyperconnect.github.io/2019/10/03/survival-analysis-part3.html
