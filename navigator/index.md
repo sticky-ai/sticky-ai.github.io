@@ -8,6 +8,7 @@ layout: page
 ### Survival Analysis
 - [Survival Analysis. 카플란-마이어 추정 (Kaplan-Meier Estimation)][survival_analysis_kaplan_meier]
 - [Survival Analysis. 로그순위법 (Log-Rank Test)][survival_analysis_log_rank_test]
+- [Survival Analysis. Cox 비례위험모형 (Cox Proportional Hazard Model)][survival_analysis_cox_model_1]
 
 ---
 
@@ -68,6 +69,8 @@ layout: page
 
 [survival_analysis_kaplan_meier]: {{ site.baseurl }}{% link _posts/2020-07-29-survival_analysis_kaplan_meier.md %}
 [survival_analysis_log_rank_test]: {{ site.baseurl }}{% link _posts/2020-07-31-survival_analysis_log_rank_test.md %}
+[survival_analysis_cox_model_1]: {{ site.baseurl }}{% link _posts/2020-08-12-survival_analysis_cox_proportional_hazard_model_1.md %}
+
 
 [mlbasic_part1]: {{ site.baseurl }}{% link _posts/2020-02-04-ml_basic_overview.md %}
 [mlbasic_part2]: {{ site.baseurl }}{% link _posts/2020-02-05-ml_basic_hypothesis_set.md %}
